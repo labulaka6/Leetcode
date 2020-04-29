@@ -1,12 +1,32 @@
-// 直观解法
-// 找出规律：matrix[i][j]旋转后位置为matrix[j][m-1-i]
-// 需要额外空间
-
 static const auto _ = [](){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     return nullptr;
 }();
+
+// 几何
+// 先上下对称反转，再沿主对角线反转
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        for(int i = 0; i < n/2; ++i){
+            for(int j = 0; j < n; ++j){
+                swap(matrix[i][j], matrix[n-i-1][j]);
+            }
+        }
+        for(int i = 0; i < n; ++i){
+            for(int j = i; j < n; ++j){
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
+    }
+};
+
+// 直观解法
+// 找出规律：matrix[i][j]旋转后位置为matrix[j][m-1-i]
+// 需要额外空间
 
 class Solution {
 public:
@@ -60,28 +80,6 @@ public:
                 matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];
                 matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];
                 matrix[j][n - i - 1] = temp;
-            }
-        }
-    }
-};
-
-// 两次反转
-// 水平反转然后主对角线反转即可
-
-class Solution {
-public:
-    void rotate(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        // 水平翻转
-        for (int i = 0; i < n / 2; ++i) {
-            for (int j = 0; j < n; ++j) {
-                swap(matrix[i][j], matrix[n - i - 1][j]);
-            }
-        }
-        // 主对角线翻转
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                swap(matrix[i][j], matrix[j][i]);
             }
         }
     }
