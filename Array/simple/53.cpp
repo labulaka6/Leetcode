@@ -11,7 +11,7 @@ static const auto _ = []()
 
 class Solution {
 public:
-    int lengthOfLIS(vector<int>& nums) {
+    int maxSubArray(vector<int>& nums) {
         int n = nums.size();
         if(n == 0) return 0;
         vector<int> dp(n, 0);
