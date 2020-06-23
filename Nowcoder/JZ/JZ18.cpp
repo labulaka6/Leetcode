@@ -1,10 +1,24 @@
-// 递归遍历
-
 static const auto _ = [](){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     return nullptr;
 }();
+
+// 递归
+
+class Solution {
+public:
+    TreeNode* mirrorTree(TreeNode* root) {
+        if(!root) return nullptr;
+        TreeNode* left = mirrorTree(root->left);
+        TreeNode* right = mirrorTree(root->right);
+        root->left = right;
+        root->right = left;
+        return root;
+    }
+};
+
+// 递归2
 
 class Solution {
     void tree(TreeNode* root){
@@ -20,28 +34,8 @@ class Solution {
         }
     }
 public:
-    TreeNode* invertTree(TreeNode* root) {
+    TreeNode* mirrorTree(TreeNode* root) {
         tree(root);
         return root;
     }
 };
-
-// 递归遍历另一种写法
-
-class Solution {
-public:
-    TreeNode* invertTree(TreeNode* root) {
-        if (root == nullptr) {
-            return nullptr;
-        }
-        TreeNode* right = invertTree(root->right);
-        TreeNode* left = invertTree(root->left);
-        root->left = right;
-        root->right = left;
-        return root;
-    }
-};
-
-// 本题也可以用迭代来解
-// 具体解法与 617. 合并二叉树 差别不大
-// 不再赘述

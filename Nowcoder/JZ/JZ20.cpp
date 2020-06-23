@@ -7,8 +7,8 @@ static const auto _ = [](){
 // 借助辅助栈
 
 class MinStack {
-    stack<int> s;  // 数据栈
-    stack<int> min;  // 辅助栈
+    stack<int> st1;  // 数据栈
+    stack<int> st2;  // 辅助栈
 public:
     /** initialize your data structure here. */
     MinStack() {
@@ -16,23 +16,21 @@ public:
     }
 
     void push(int x) {
-        s.push(x);
-        // 辅助栈入栈条件(第一个元素或者小于辅助栈栈顶元素)
-        if(min.empty() || x <= min.top()) min.push(x);
+        st1.push(x);
+        if(st2.empty() || x <= st2.top()) st2.push(x);
     }
 
     void pop() {
-        // 两个栈栈顶元素相等则共同出栈
-        if(s.top() == min.top()) min.pop();
-        s.pop();
+        if(st1.top() == st2.top()) st2.pop();
+        st1.pop();
     }
 
     int top() {
-        return s.top();
+        return st1.top();
     }
 
-    int getMin() {
-        return min.top();
+    int min() {
+        return st2.top();
     }
 };
 

@@ -9,14 +9,14 @@ static const auto _ = [](){
 class Solution {
     void tree(TreeNode* root){
         if(root){
-            invertTree(root -> left);
+            tree(root -> left);
             // TreeNode* tem = root -> left;
             // root -> left = root -> right;
             // root -> right = tem;
             swap(root -> left, root -> right);
             // 上边的 invertTree(root -> left) 已经将左子树全部转换
             // 此时的左子树即原来的右子树
-            invertTree(root -> left);
+            tree(root -> left);
         }
     }
 public:

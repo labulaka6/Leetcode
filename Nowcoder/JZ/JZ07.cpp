@@ -4,6 +4,12 @@ static const auto _ = [](){
     return nullptr;
 }();
 
+// 动态规划
+// f(n) = f(n-1) + f(n-2)
+// 初始状态f(0) = 0, f(1) = 1
+// f(n) 只与 f(n-1) 和 f(n-2) 有关
+// 可优化空间复杂度至常数级别
+
 class Solution {
 public:
     int fib(int n) {

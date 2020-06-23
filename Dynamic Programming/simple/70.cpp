@@ -23,3 +23,21 @@ public:
         return dp[n];
     }
 };
+
+// dp[i] 只与 dp[i-1] 和 dp[i-2]有关
+// 可优化空间复杂度为常数级别
+
+class Solution {
+public:
+    int climbStairs(int n) {
+        if(n < 2) return 1;
+        int a = 1, b = 2;
+        int ans = 2;
+        for(int i = 2; i < n; ++i){
+            ans = a + b;
+            a = b;
+            b = ans;
+        }
+        return ans;
+    }
+};
