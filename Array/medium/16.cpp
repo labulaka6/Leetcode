@@ -13,7 +13,7 @@ public:
         sort(nums.begin(), nums.end());
         int ans = nums[0] + nums[1] + nums[2];
         for(int i = 0; i < nums.size()-2; ++i) {
-            int start = i+1, end = nums.size() - 1;
+            int start = i + 1, end = nums.size() - 1;
             while(start < end) {
                 int sum = nums[start] + nums[end] + nums[i];
                 if(abs(target - sum) < abs(target - ans)) ans = sum;
