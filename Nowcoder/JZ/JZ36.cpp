@@ -12,10 +12,10 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         if(!headA || !headB) return nullptr;
         ListNode *pa = headA, *pb = headB;
-        while(pA != pB){
-            pA = pA == nullptr ? headB : pA->next;
-            pB = pB == nullptr ? headA : pB->next;
+        while(pa != pb){
+            pa = pa == nullptr ? headB : pa->next;
+            pb = pb == nullptr ? headA : pb->next;
         }
-        return pA;
+        return pa;
     }
 };

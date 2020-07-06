@@ -12,7 +12,7 @@ public:
         int ans = 0, count = 0;
         for(int i = 1, i < nums.size(); ++i){
             count = 0;
-            int j = i; tem = nums[i];
+            int j = i, tem = nums[i];
             while(j > 0 && tem < nums[j-1]){
                     count++;
                     nums[j] = nums[j-1];
@@ -29,10 +29,7 @@ public:
 class Solution {
 public:
     int mergeSort(vector<int>& nums, vector<int>& tmp, int l, int r) {
-        if (l >= r) {
-            return 0;
-        }
-
+        if (l >= r) return 0;
         int mid = l + (r-l)/2;  // 取分治点 防止l与r过大发生整型溢出
         // 左区间与右区间的逆序对
         int inv_count = mergeSort(nums, tmp, l, mid) + mergeSort(nums, tmp, mid + 1, r);
