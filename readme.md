@@ -7,6 +7,7 @@ Leetcode的一些解题思路
 ### 简单
 [67. 二进制求和](https://github.com/labulaka6/Leetcode/blob/master/String/simple/67.cpp)【数学】  
 [125. 验证回文串](https://github.com/labulaka6/Leetcode/blob/master/String/simple/125.cpp)【双指针】  
+[387. 字符串中的第一个唯一字符(剑指 Offer 50. 第一个只出现一次的字符)](https://github.com/labulaka6/Leetcode/blob/master/String/simple/387.cpp)【字符串】  
 [680. 验证回文字符串 Ⅱ](https://github.com/labulaka6/Leetcode/blob/master/String/simple/680.cpp)  
 [1071. 字符串的最大公因子](https://github.com/labulaka6/Leetcode/blob/master/String/simple/1071.cpp)  
 [面试题 01.06. 字符串压缩](https://github.com/labulaka6/Leetcode/blob/master/String/simple/Interview.01.06.cpp)  
@@ -14,17 +15,19 @@ Leetcode的一些解题思路
 ### 中等
 [3. 无重复字符的最长子串](https://github.com/labulaka6/Leetcode/blob/master/String/medium/3.cpp)【滑动窗口】【哈希表】【双指针】  
 [5. 最长回文子串](https://github.com/labulaka6/Leetcode/blob/master/String/medium/5.cpp)【动态规划】  
-[8. 字符串转换整数 (atoi)](https://github.com/labulaka6/Leetcode/blob/master/String/medium/8.cpp)【数学】  
+[8. 字符串转换整数 (atoi) (剑指 Offer 67. 把字符串转换成整数)](https://github.com/labulaka6/Leetcode/blob/master/String/medium/8.cpp)【数学】  
 [22. 括号生成](https://github.com/labulaka6/Leetcode/blob/master/String/medium/22.cpp)【回溯算法】【DFS】【动态规划】  
 [49. 字母异位词分组](https://github.com/labulaka6/Leetcode/blob/master/String/medium/49.cpp)【哈希表】  
-[151. 翻转字符串里的单词](https://github.com/labulaka6/Leetcode/blob/master/String/medium/151.cpp)  
+[151. 翻转字符串里的单词(剑指 Offer 58 - I. 翻转单词顺序)](https://github.com/labulaka6/Leetcode/blob/master/String/medium/151.cpp)  
 [647. 回文子串](https://github.com/labulaka6/Leetcode/blob/master/String/medium/647.cpp)【动态规划】  
 [820. 单词的压缩编码](https://github.com/labulaka6/Leetcode/blob/master/String/medium/820.cpp)  
 [1371. 每个元音包含偶数次的最长子字符串](https://github.com/labulaka6/Leetcode/blob/master/String/medium/1371.cpp)  
-[面试题 16.18. 模式匹配](https://github.com/labulaka6/Leetcode/blob/master/String/medium/Interview.16.18.cpp)
+[面试题 16.18. 模式匹配](https://github.com/labulaka6/Leetcode/blob/master/String/medium/Interview.16.18.cpp)  
+[面试题 17.13. 恢复空格](https://github.com/labulaka6/Leetcode/blob/master/String/medium/Interview.17.13.cpp)【记忆化】
 ### 困难
-[10. 正则表达式匹配](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/10.cpp)【动态规划】【回溯算法】  
+[10. 正则表达式匹配(剑指 Offer 19. 正则表达式匹配)](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/10.cpp)【动态规划】【回溯算法】  
 [32. 最长有效括号](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/32.cpp)【动态规划】  
+[65. 有效数字(剑指 Offer 20. 表示数值的字符串)](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/65.cpp)【字符串】  
 [72. 编辑距离](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/72.cpp)【动态规划】  
 [76. 最小覆盖子串](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/76.cpp)【哈希表】【双指针】【滑动窗口】  
 [126. 单词接龙 II](https://github.com/labulaka6/Leetcode/blob/master/String/difficult/126.cpp)【BFS】【数组】【回溯算法】
@@ -56,6 +59,7 @@ Leetcode的一些解题思路
 [面试题 02.01. 移除重复节点](https://github.com/labulaka6/Leetcode/blob/master/List/simple/Interview.02.01.cpp)  
 [面试题 02.02. 返回倒数第 k 个节点(面试题22. 链表中倒数第k个节点)](https://github.com/labulaka6/Leetcode/blob/master/List/simple/Interview.02.02.cpp)【哈希表】【双指针】
 ### 中等
+[82. 删除排序链表中的重复元素 II](https://github.com/labulaka6/Leetcode/blob/master/List/medium/82.cpp)  
 [138. 复制带随机指针的链表(剑指 Offer 35. 复杂链表的复制)](https://github.com/labulaka6/Leetcode/blob/master/List/medium/138.cpp)【哈希表】  
 [142. 环形链表 II](https://github.com/labulaka6/Leetcode/blob/master/List/medium/142.cpp)【双指针】  
 [143. 重排链表](https://github.com/labulaka6/Leetcode/blob/master/List/medium/143.cpp)  
@@ -68,11 +72,12 @@ Leetcode的一些解题思路
 
 ## 树&堆
 ### 简单
-[101. 对称二叉树](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/101.cpp)【树】【DFS】【BFS】  
+[101. 对称二叉树(剑指 Offer 28. 对称的二叉树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/101.cpp)【树】【DFS】【BFS】  
 [104. 二叉树的最大深度(剑指 Offer 55 - I. 二叉树的深度)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/104.cpp)【树】【DFS】  
 [108. 将有序数组转换为二叉搜索树](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/108.cpp)【树】【DFS】  
 [110. 平衡二叉树(剑指 Offer 55 - II. 平衡二叉树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/110.cpp)【树】【DFS】  
 [111. 二叉树的最小深度](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/111.cpp)【树】【BFS】【DFS】  
+[112. 路径总和](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/112.cpp)【树】【DFS】  
 [226. 翻转二叉树(面试题27. 二叉树的镜像)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/226.cpp)【树】  
 [538. 把二叉搜索树转换为累加树(1038. 从二叉搜索树到更大和树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/538.cpp)【树】  
 [543. 二叉树的直径](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/simple/543.cpp)【树】  
@@ -101,7 +106,7 @@ Leetcode的一些解题思路
 [23. 合并K个排序链表](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/23.cpp)【堆】【链表】【分治算法】  
 [124. 二叉树中的最大路径和](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/124.cpp)【树】【DFS】  
 [145. 二叉树的后序遍历](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/145.cpp)【树】【栈】  
-[297. 二叉树的序列化与反序列化](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/297.cpp)【树】【设计】  
+[297. 二叉树的序列化与反序列化(剑指 Offer 37. 序列化二叉树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/297.cpp)【树】【设计】  
 [1028. 从先序遍历还原二叉树](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/1028.cpp)【树】【DFS】
 
 ## 数组
@@ -189,7 +194,7 @@ Leetcode的一些解题思路
 [338. 比特位计数](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/338.cpp)【位运算】  
 [413. 等差数列划分](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/413.cpp)【数学】  
 [542. 01 矩阵](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/542.cpp)【BFS】【DFS】  
-[647. 回文子串](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/338.cpp)【字符串】  
+[647. 回文子串](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/647.cpp)【字符串】  
 [712. 两个字符串的最小ASCII删除和](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/712.cpp)  
 [714. 买卖股票的最佳时机含手续费](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/714.cpp)【数组】【贪心算法】  
 [718. 最长重复子数组](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/718.cpp)【数组】【哈希表】【二分查找】  
@@ -206,7 +211,7 @@ Leetcode的一些解题思路
 [面试题47. 礼物的最大价值](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/Interview.47.cpp)  
 (注： 面试题47个人认为应该为简单难度，但是leetcode分级为中等，所以算在中等里边)
 ### 困难
-[10. 正则表达式匹配](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/10.cpp)【字符串】【回溯算法】  
+[10. 正则表达式匹配(剑指 Offer 19. 正则表达式匹配)](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/10.cpp)【字符串】【回溯算法】  
 [32. 最长有效括号](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/32.cpp)【字符串】  
 [72. 编辑距离](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/72.cpp)【字符串】  
 [132. 分割回文串 II](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/132.cpp)  
@@ -237,9 +242,11 @@ Leetcode的一些解题思路
 (注： 994题个人认为应该为中等难度，但是leetcode分级为简单，所以算在简单里边)  
 [1025. 除数博弈](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/1025.cpp)【数学】【动态规划】  
 [1103. 分糖果 II](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/1103.cpp)【数学】  
+[面试题 17.01. 不用加号的加法(剑指 Offer 65. 不用加减乘除做加法)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/Interview.17.01.cpp)【位运算】  
 [剑指 Offer 40. 最小的k个数](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/JZ40.cpp)【堆】【分治算法】  
-[面试题 57 - II. 和为s的连续正数序列](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/Interview.57-II.cpp)【数学】  
-[面试题62. 圆圈中最后剩下的数字](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/Interview.62.cpp)【约瑟夫环】
+[剑指 Offer 57 - II. 和为s的连续正数序列](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/JZ57-II.cpp)【数学】  
+[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/JZ62.cpp)【约瑟夫环】  
+[面试题 16.11. 跳水板](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/Interview.16.11.cpp)【数学】
 ### 中等
 [8. 字符串转换整数 (atoi)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/8.cpp)【字符串】  
 [22. 括号生成](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/22.cpp)【字符串】【动态规划】【DFS】【回溯算法】  
@@ -262,6 +269,7 @@ Leetcode的一些解题思路
 [202. 快乐数](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/202.cpp)【数学】【哈希表】  
 [210. 课程表 II](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/210.cpp)【BFS】【DFS】【图】【拓扑排序】  
 [215. 数组中的第K个最大元素](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/215.cpp)【堆】【分治算法】  
+[260. 只出现一次的数字 III(剑指 Offer 56 - I. 数组中数字出现的次数)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/260.cpp)【位运算】  
 [264. 丑数 II(剑指 Offer 49. 丑数)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/264.cpp)【堆】【数学】【动态规划】  
 [355. 设计推特](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/355.cpp)【堆】【设计】【哈希表】  
 [365. 水壶问题](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/365.cpp)【数学】【BFS】【DFS】  
@@ -277,8 +285,7 @@ Leetcode的一些解题思路
 [1162. 地图分析](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/1162.cpp)【BFS】【图】  
 [1227. 飞机座位分配概率](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/1227.cpp)【数学】【动态规划】【脑经急转弯】  
 [面试题13. 机器人的运动范围](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/Interview.13.cpp)【BFS】  
-[面试题56 - I. 数组中数字出现的次数](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/Interview.56-I.cpp)【位运算】  
-[面试题64. 求1+2+…+n](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/Interview.64.cpp)
+[剑指 Offer 64. 求1+2+…+n](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/JZ64.cpp)
 ### 困难
 [4. 寻找两个正序数组的中位数](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/difficult/4.cpp)【数组】【二分查找】【分治算法】  
 [124. 二叉树中的最大路径和](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/difficult/124.cpp)【树】【DFS】  
@@ -376,7 +383,18 @@ Leetcode的一些解题思路
 [剑指 Offer 50. 第一个只出现一次的字符](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ34.cpp)【字符串】  
 [剑指 Offer 52. 两个链表的第一个公共节点](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ36.cpp)【链表】  
 [剑指 Offer 55 - I. 二叉树的深度](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ38.cpp)【树】  
-[剑指 Offer 55 - II. 平衡二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ39.cpp)【树】
+[剑指 Offer 55 - II. 平衡二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ39.cpp)【树】  
+[剑指 Offer 57 - II. 和为s的连续正数序列](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ41.cpp)【遍历】  
+[剑指 Offer 57. 和为s的两个数字](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ42.cpp)【数学】【数组】【双指针】  
+[剑指 Offer 58 - II. 左旋转字符串](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ43.cpp)【字符串】  
+[剑指 Offer 58 - I. 翻转单词顺序](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ44.cpp)【字符串】  
+[剑指 Offer 61. 扑克牌中的顺子](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ45.cpp)【字符串】  
+[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ46.cpp)【链表】【数学】  
+[剑指 Offer 65. 不用加减乘除做加法](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ48.cpp)【进制转化】【数学】  
+[剑指 Offer 03. 数组中重复的数字](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ50.cpp)【数组】  
+[剑指 Offer 66. 构建乘积数组](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ51.cpp)【数组】  
+[剑指 Offer 28. 对称的二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ58.cpp)【树】  
+[剑指 Offer 32 - II. 从上到下打印二叉树 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ60.cpp)【队列】【树】
 ### 中等
 [剑指 Offer 07. 重建二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ04.cpp)【树】  
 [剑指 Offer 16. 数值的整数次方](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ12.cpp)【数学】  
@@ -392,9 +410,19 @@ Leetcode的一些解题思路
 [剑指 Offer 45. 把数组排成最小的数](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ32.cpp)【数组】  
 [剑指 Offer 49. 丑数](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ33.cpp)【穷举】  
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ37.cpp)【数组】  
-[JZ40. 数组中只出现一次的数字](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ37.cpp)【数组】
+[剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ37.cpp)【数组】  
+[剑指 Offer 64. 求1+2+…+n](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ47.cpp)【进制转化】【数学】  
+[剑指 Offer 67. 把字符串转换成整数](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ49.cpp)【数学】【字符串】  
+[剑指 Offer 20. 表示数值的字符串](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ53.cpp)【字符串】  
+[JZ54. 字符流中第一个不重复的字符](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ54.cpp)【字符串】  
+[142. 环形链表 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ55.cpp)【链表】  
+[82. 删除排序链表中的重复元素 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ56.cpp)【链表】  
+[JZ57. 二叉树的下一个结点](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ57.cpp)【树】  
+[剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ59.cpp)【栈】【树】
 ### 困难
-[剑指 Offer 51. 数组中的逆序对](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ35.cpp)【数组】
+[剑指 Offer 51. 数组中的逆序对](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ35.cpp)【数组】  
+[剑指 Offer 19. 正则表达式匹配](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ52.cpp)【字符串】  
+[剑指 Offer 37. 序列化二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ61.cpp)【队列】【树】
 
 ## Tencent
 ### Array&String
