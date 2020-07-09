@@ -1,11 +1,12 @@
-// 暴力解法 - 链表模拟 (超时)
-// 全真模拟
-
 static const auto _ = [](){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     return nullptr;
 }();
+
+// 暴力解法 - 链表模拟
+// 全真模拟
+// 超出时间限制  26 / 36 个通过测试用例
 
 class Solution {
 public:
@@ -44,7 +45,7 @@ public:
     }
 };
 
-// 递归版约瑟夫环
+// 迭代版约瑟夫环
 
 class Solution {
 public:

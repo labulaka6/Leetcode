@@ -3,7 +3,7 @@
 // start        start   signed  in_number   end
 // signed       end     end     in_number   end
 // in_number    end     end     in_number   end
-// end          end     end     in_number   end
+// end          end     end     end         end
 
 static const auto _ = [](){
     ios::sync_with_stdio(false);
@@ -56,36 +56,40 @@ public:
 class Solution {
 public:
     int myAtoi(string str) {
-        int n;
-        n = str.find_first_not_of(" ");
-        if(n == string::npos)
-            return 0;
-        if(str[n] == '-' || str[n] == '+' || str[n] >= '0' && str[n] <= '9'){
-            int i = str.find_first_not_of("0123456789", n+1);
-            if(i != string::npos){
-                str.erase(i, str.size());
-            }
-        }else{
-            return 0;
+            int d = 0;
+            istringstream is(str);
+            is >> d;
+            return d;
         }
-        stringstream s;
-        s << str;
-        int re;
-        s >> re;
-        return re;
-    }
 };
 
-// 超简洁版 - 用stringstream其实不用做那么多判断
+// 常规解法
 
 class Solution {
 public:
     int myAtoi(string str) {
-            int d=0;
-            istringstream is(str);
-            is>>d;
-            return d;
+        int res = 0;
+        int i = 0;
+        int flag = 1;
+        // 1. 检查空格
+        while (str[i] == ' ') { i++; }
+        // 2. 检查符号
+        if (str[i] == '-') { flag = -1; }
+        if (str[i] == '+' || str[i] == '-') { i++; }
+        // 3. 计算数字
+        while (i < str.size() && isdigit(str[i])) {
+            int r = str[i] - '0';
+            // ------ 4. 处理溢出，这是关键步骤 ------
+            // int范围 -2147483648 ~ 2147483647
+            if (res > INT_MAX / 10 || (res == INT_MAX / 10 && r > 7)) {
+                return flag > 0 ? INT_MAX : INT_MIN;
+            }
+            // ------------------------------------
+            res = res * 10 + r;
+            i++;
         }
+        return flag > 0 ? res : -res;
+    }
 };
 
 // 正则表达式(暂未通过 输出为0 初步应该是判断smatch类型转string出问题)
