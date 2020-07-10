@@ -47,7 +47,8 @@ Leetcode的一些解题思路
 ### 困难
 [42. 接雨水](https://github.com/labulaka6/Leetcode/blob/master/Stack%26Queue/difficult/42.cpp)【栈】【数组】【双指针】  
 [84. 柱状图中最大的矩形](https://github.com/labulaka6/Leetcode/blob/master/Stack%26Queue/difficult/84.cpp)【栈】【数组】  
-[145. 二叉树的后序遍历](https://github.com/labulaka6/Leetcode/blob/master/Stack%26Queue/difficult/145.cpp)【栈】【树】
+[145. 二叉树的后序遍历](https://github.com/labulaka6/Leetcode/blob/master/Stack%26Queue/difficult/145.cpp)【栈】【树】  
+[239. 滑动窗口最大值(剑指 Offer 59 - I. 滑动窗口的最大值)](https://github.com/labulaka6/Leetcode/blob/master/Stack%26Queue/difficult/239.cpp)【队列】【滑动窗口】
 
 ## 链表
 ### 简单
@@ -98,6 +99,7 @@ Leetcode的一些解题思路
 [199. 二叉树的右视图](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/199.cpp)【树】【DFS】【BFS】  
 [208. 实现 Trie (前缀树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/208.cpp)【字典树】【设计】  
 [215. 数组中的第K个最大元素](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/215.cpp)【堆】【分治算法】  
+[230. 二叉搜索树中第K小的元素(剑指 Offer 54. 二叉搜索树的第k大节点)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/230.cpp)【树】【二分查找】  
 [236. 二叉树的最近公共祖先](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/236.cpp)【树】  
 [264. 丑数 II(剑指 Offer 49. 丑数)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/264.cpp)【堆】【数学】【动态规划】  
 [355. 设计推特](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/medium/355.cpp)【堆】【设计】【哈希表】  
@@ -106,6 +108,7 @@ Leetcode的一些解题思路
 [23. 合并K个排序链表](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/23.cpp)【堆】【链表】【分治算法】  
 [124. 二叉树中的最大路径和](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/124.cpp)【树】【DFS】  
 [145. 二叉树的后序遍历](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/145.cpp)【树】【栈】  
+[295. 数据流的中位数(剑指 Offer 41. 数据流中的中位数)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/295.cpp)【堆】【设计】  
 [297. 二叉树的序列化与反序列化(剑指 Offer 37. 序列化二叉树)](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/297.cpp)【树】【设计】  
 [1028. 从先序遍历还原二叉树](https://github.com/labulaka6/Leetcode/blob/master/Tree&heap/difficult/1028.cpp)【树】【DFS】
 
@@ -394,7 +397,9 @@ Leetcode的一些解题思路
 [剑指 Offer 03. 数组中重复的数字](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ50.cpp)【数组】  
 [剑指 Offer 66. 构建乘积数组](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ51.cpp)【数组】  
 [剑指 Offer 28. 对称的二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ58.cpp)【树】  
-[剑指 Offer 32 - II. 从上到下打印二叉树 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ60.cpp)【队列】【树】
+[剑指 Offer 32 - II. 从上到下打印二叉树 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ60.cpp)【队列】【树】  
+[剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ62.cpp)【树】【栈】  
+[剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ64.cpp)【数组】
 ### 中等
 [剑指 Offer 07. 重建二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ04.cpp)【树】  
 [剑指 Offer 16. 数值的整数次方](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ12.cpp)【数学】  
@@ -418,11 +423,13 @@ Leetcode的一些解题思路
 [142. 环形链表 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ55.cpp)【链表】  
 [82. 删除排序链表中的重复元素 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ56.cpp)【链表】  
 [JZ57. 二叉树的下一个结点](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ57.cpp)【树】  
-[剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ59.cpp)【栈】【树】
+[剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ59.cpp)【栈】【树】  
+[剑指 Offer 12. 矩阵中的路径](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ65.cpp)【DFS】【回溯】
 ### 困难
 [剑指 Offer 51. 数组中的逆序对](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ35.cpp)【数组】  
 [剑指 Offer 19. 正则表达式匹配](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ52.cpp)【字符串】  
-[剑指 Offer 37. 序列化二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ61.cpp)【队列】【树】
+[剑指 Offer 37. 序列化二叉树](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ61.cpp)【队列】【树】  
+[剑指 Offer 41. 数据流中的中位数](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ63.cpp)【进制转化】【排序】【堆】
 
 ## Tencent
 ### Array&String
