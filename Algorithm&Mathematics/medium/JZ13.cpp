@@ -1,10 +1,10 @@
-// 广度优先搜索
-
 static const auto _ = [](){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     return nullptr;
 }();
+
+// 广度优先搜索
 
 class Solution {
     int sum(int n){
@@ -21,7 +21,7 @@ public:
         vector<vector<int>> vis(m, vector<int>(n, 0));
         int v1[2] = {1, 0};
         int v2[2] = {0, 1};
-        Q.push(make_pair(0, 0));
+        Q.push(pair<int, int> {0, 0});
         vis[0][0] = 1;
         int count = 1;
         while(!Q.empty()){
@@ -33,7 +33,7 @@ public:
                 int y = j + v2[z];
                 if(x < 0 || x >= m || y < 0 || y >= n || vis[x][y]  || sum(x) + sum(y) > k) continue;
                 vis[x][y] = 1;
-                Q.push(make_pair(x, y));
+                Q.push(pair<int, int> {x, y});
                 count++;
             }
         }
@@ -54,7 +54,7 @@ class Solution {
 public:
     int movingCount(int m, int n, int k) {
         if (!k) return 1;
-        vector<vector<int> > vis(m, vector<int>(n, 0));
+        vector<vector<int>> vis(m, vector<int>(n, 0));
         int ans = 1;
         vis[0][0] = 1;
         for (int i = 0; i < m; ++i) {
