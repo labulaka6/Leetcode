@@ -165,6 +165,7 @@ Leetcode的一些解题思路
 [84. 柱状图中最大的矩形](https://github.com/labulaka6/Leetcode/blob/master/Array/difficult/84.cpp)【栈】  
 [126. 单词接龙 II](https://github.com/labulaka6/Leetcode/blob/master/Array/difficult/126.cpp)【BFS】【字符串】【回溯算法】  
 [128. 最长连续序列](https://github.com/labulaka6/Leetcode/blob/master/Array/difficult/128.cpp)【并查集】  
+[315. 计算右侧小于当前元素的个数](https://github.com/labulaka6/Leetcode/blob/master/Array/difficult/315.cpp)【排序】【树状数组】【线段树】【二分查找】【分治算法】  
 [剑指 Offer 51. 数组中的逆序对](https://github.com/labulaka6/Leetcode/blob/master/Array/difficult/JZ51.cpp)
 
 ## 动态规划
@@ -193,8 +194,10 @@ Leetcode的一些解题思路
 [221. 最大正方形](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/221.cpp)  
 [264. 丑数 II(剑指 Offer 49. 丑数)](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/264.cpp)【堆】【数学】  
 [300. 最长上升子序列](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/300.cpp)【二分查找】  
+[309. 最佳买卖股票时机含冷冻期](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/309.cpp)  
 [322. 零钱兑换](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/322.cpp)  
 [338. 比特位计数](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/338.cpp)【位运算】  
+[343. 整数拆分(剑指 Offer 14- I. 剪绳子)](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/343.cpp)【数学】  
 [413. 等差数列划分](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/413.cpp)【数学】  
 [542. 01 矩阵](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/542.cpp)【BFS】【DFS】  
 [647. 回文子串](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/medium/647.cpp)【字符串】  
@@ -219,6 +222,7 @@ Leetcode的一些解题思路
 [72. 编辑距离](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/72.cpp)【字符串】  
 [132. 分割回文串 II](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/132.cpp)  
 [140. 单词拆分 II](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/140.cpp)【回溯算法】  
+[174. 地下城游戏](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/174.cpp)【二分查找】  
 [312. 戳气球](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/312.cpp)【分治算法】  
 [466. 统计重复个数](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/466.cpp)  
 [887. 鸡蛋掉落](https://github.com/labulaka6/Leetcode/blob/master/Dynamic%20Programming/difficult/887.cpp)【数学】【二分查找】
@@ -236,6 +240,7 @@ Leetcode的一些解题思路
 [136. 只出现一次的数字](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/136.cpp)【位运算】【哈希表】  
 [169. 多数元素(剑指 Offer 39. 数组中出现次数超过一半的数字)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/169.cpp)【分治算法】【数组】【位运算】  
 [191. 位1的个数(面试题15. 二进制中1的个数)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/191.cpp)【位运算】  
+[350. 两个数组的交集 II](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/350.cpp)【排序】【哈希表】【双指针】【二分查找】  
 [409. 最长回文串](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/409.cpp)【哈希表】  
 [461. 汉明距离](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/461.cpp)【位运算】  
 [836. 矩形重叠](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/simple/836.cpp)【数学】  
@@ -274,6 +279,7 @@ Leetcode的一些解题思路
 [215. 数组中的第K个最大元素](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/215.cpp)【堆】【分治算法】  
 [260. 只出现一次的数字 III(剑指 Offer 56 - I. 数组中数字出现的次数)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/260.cpp)【位运算】  
 [264. 丑数 II(剑指 Offer 49. 丑数)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/264.cpp)【堆】【数学】【动态规划】  
+[343. 整数拆分(剑指 Offer 14- I. 剪绳子)](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/343.cpp)【数学】【动态规划】  
 [355. 设计推特](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/355.cpp)【堆】【设计】【哈希表】  
 [365. 水壶问题](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/365.cpp)【数学】【BFS】【DFS】  
 [378. 有序矩阵中第K小的元素](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/378.cpp)【堆】【二分查找】
@@ -287,8 +293,10 @@ Leetcode的一些解题思路
 [1111. 有效括号的嵌套深度](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/1111.cpp)【贪心算法】【二分查找】  
 [1162. 地图分析](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/1162.cpp)【BFS】【图】  
 [1227. 飞机座位分配概率](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/1227.cpp)【数学】【动态规划】【脑经急转弯】  
-[面试题13. 机器人的运动范围](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/Interview.13.cpp)【BFS】  
+[剑指 Offer 13. 机器人的运动范围](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/JZ13.cpp)【BFS】  
+[剑指 Offer 14- II. 剪绳子 II](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/JZ14-II.cpp)【数学】  
 [剑指 Offer 64. 求1+2+…+n](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/medium/JZ64.cpp)
+
 ### 困难
 [4. 寻找两个正序数组的中位数](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/difficult/4.cpp)【数组】【二分查找】【分治算法】  
 [124. 二叉树中的最大路径和](https://github.com/labulaka6/Leetcode/blob/master/Algorithm&Mathematics/difficult/124.cpp)【树】【DFS】  
@@ -424,7 +432,9 @@ Leetcode的一些解题思路
 [82. 删除排序链表中的重复元素 II](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ56.cpp)【链表】  
 [JZ57. 二叉树的下一个结点](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ57.cpp)【树】  
 [剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ59.cpp)【栈】【树】  
-[剑指 Offer 12. 矩阵中的路径](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ65.cpp)【DFS】【回溯】
+[剑指 Offer 12. 矩阵中的路径](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ65.cpp)【DFS】【回溯】  
+[剑指 Offer 13. 机器人的运动范围](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ66.cpp)【数组】  
+[剑指 Offer 14- I. 剪绳子](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ67.cpp)【贪心】
 ### 困难
 [剑指 Offer 51. 数组中的逆序对](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ35.cpp)【数组】  
 [剑指 Offer 19. 正则表达式匹配](https://github.com/labulaka6/Leetcode/blob/master/Nowcoder/JZ/JZ52.cpp)【字符串】  
